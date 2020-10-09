@@ -1,0 +1,53 @@
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+.button-update {
+  border: 1px solid #00ac00;
+  background: #20b901f6;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 25px;
+  margin: 10px 5px 0 0;
+  cursor: pointer;
+}
+
+.button-cancel {
+  border: 1px solid #e29b00;
+  background: #df9100f6;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 30px;
+  margin: 10px 5px 0 0;
+  cursor: pointer;
+}
+
+.button-update:focus {
+  border: 1px solid #004900;
+  background: #126e00f6;
+}
+
+.button-update:hover {
+  background: #1a9901f6;
+}
+
+.button-cancel:focus {
+  border: 1px solid #975b00;
+  background: #8f5600f6;
+}
+
+.button-cancel:hover {
+  background: #995201f6;
+}

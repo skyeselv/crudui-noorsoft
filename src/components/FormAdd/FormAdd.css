@@ -1,0 +1,32 @@
+input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+.button-submit {
+  border: 1px solid #00ac00;
+  background: #20b901f6;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px 100px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.button-submit:focus {
+  border: 1px solid #004900;
+  background: #126e00f6;
+}
+
+.button-submit:hover {
+  background: #1a9901f6;
+}
